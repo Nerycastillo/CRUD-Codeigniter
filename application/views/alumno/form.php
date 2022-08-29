@@ -34,6 +34,7 @@
         $apellido = "";
         $direccion = "";
         $telefono = "";
+        $dpi = "";
         $correo= "";
         $estado="";
 
@@ -54,6 +55,10 @@
         <div class="form-group">
             <label for="">Telefono:</label>
             <input type="text" name="movil" id="movil" class="form-control" value="<?php echo $telefono?>" required="true">
+        </div>
+        <div class="form-group">
+            <label for="">dpi:</label>
+            <input type="text" name="dpi" id="dpi" class="form-control" value="<?php echo $dpi?>" required="true">
         </div>
         <div class="form-group">
             <label for="">Correo electronico:</label>

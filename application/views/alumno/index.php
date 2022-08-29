@@ -14,6 +14,7 @@
                     <th>Nombre</th>
                     <th>Dirección</th>
                     <th>Telefono</th>
+                    <th>dpi</th>
                     <th>Email</th>
                     <th>Fecha Creación</th>
                     <th>Usuario</th>
@@ -28,6 +29,7 @@
 						<td><?= $row->nombre.' '.$row->apellido; ?></td>
 						<td><?= $row->direccion; ?>	</td>
 						<td><?= $row->movil; ?></td>
+                        <td><?= $row->dpi; ?></td>
 						<td><?= $row->email;?></td>
 						<td><?= $row->fecha_creacion; ?></td>
 						<td><?= $row->user; ?></td> 
@@ -46,6 +48,7 @@
                     <th>Nombre</th>
                     <th>Dirección</th>
                     <th>Telefono</th>
+                    <th>dpi</th>
                     <th>Email</th>
                     <th>Fecha Creación</th>
                     <th>Usuario</th>

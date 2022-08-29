@@ -57,6 +57,7 @@ class AlumnosController extends CI_Controller
                 'apellido' => $this->input->post('apellido'),
                 'direccion' => $this->input->post('direccion'),
                 'movil' => $this->input->post('movil'),
+                'dpi' => $this->input->post('dpi'),
                 'email' => $this->input->post('email'),
                 'inactivo' => $this->input->post('inactivo'),
                 'user' => 1
