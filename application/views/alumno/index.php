@@ -14,7 +14,7 @@
                     <th>Nombre</th>
                     <th>Dirección</th>
                     <th>Telefono</th>
-                    <th>dpi</th>
+                    <th>DPI</th>
                     <th>Email</th>
                     <th>Fecha Creación</th>
                     <th>Usuario</th>
